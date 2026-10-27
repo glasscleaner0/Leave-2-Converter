@@ -1,0 +1,12 @@
+{
+  "product": "Leave 2 Converter Vanilla",
+  "release": "v0.5 Public Beta",
+  "version": "0.5.0-public-beta",
+  "license": "GPL-3.0",
+  "converter_source_sha256": "c89afc902deb7c8764055adca2dd946061a6db4cc049407886dcb14f51c8780a",
+  "patch_id": "loader-clean-20261027-v1-audio",
+  "x360_convert": "0.2.0",
+  "kind": "python-source",
+  "personal_settings_included": false,
+  "sdk_or_ffmpeg_binaries_included": false
+}

@@ -1,0 +1,600 @@
+{
+  "schema": 1,
+  "name": "Leave 2 Loader minimal clean baseline",
+  "patch_id": "loader-clean-20261027-v1-audio",
+  "archive_naming": ".360.zip",
+  "gameinfo_sha256": "16bdbb53aef03b341a8f760d4451d69bae975a1406024afe10c838816fd158ec",
+  "files": [
+    {
+      "path": "bin/datacache_360.dll",
+      "target_sha256": "2878757a142a72ff2890ab68273aefd08eb082cb70ae16b1f8822cb471a5bbad",
+      "target_bytes": 430080,
+      "variants": [
+        {
+          "source_sha256": "e39ce46e272bd04deccb4a5881565130f5cf95b0d65b6b690a711df2a5d8f7d1",
+          "source_bytes": 430080,
+          "payload": "00-0.xor",
+          "payload_sha256": "192c5a89f89ce7c921682e95496e66f80c0bcd66ae208b015f15c2a6d2619ff3"
+        },
+        {
+          "source_sha256": "2878757a142a72ff2890ab68273aefd08eb082cb70ae16b1f8822cb471a5bbad",
+          "source_bytes": 430080,
+          "payload": "00-1.xor",
+          "payload_sha256": "41ce647456a513b04b1c24bc3a452037ce6fc71102b1f94d61e5585c80b3b9fc"
+        }
+      ],
+      "allow_absent": false,
+      "loader_module": false,
+      "official_sha256": "2878757a142a72ff2890ab68273aefd08eb082cb70ae16b1f8822cb471a5bbad"
+    },
+    {
+      "path": "bin/engine_360.dll",
+      "target_sha256": "770ca431894bd1a738e503f4ff24421d6bfeac687e1d85bc73d09cb4fdc474e0",
+      "target_bytes": 4501504,
+      "variants": [
+        {
+          "source_sha256": "903de0f1c29171d9177cde25e13b6b78ddff90a5634b042980e9e3674598768f",
+          "source_bytes": 4501504,
+          "payload": "audio-engine_360-0.xor",
+          "payload_sha256": "eef2a8c4cad35387072627068901d856135476c0ce6783b85d81f1a7dc770725"
+        },
+        {
+          "source_sha256": "01e9bcd3ec3019ef77ba1ce2d34c150edca13d92c1cbe9eb435d3e7a8506fdea",
+          "source_bytes": 4468736,
+          "payload": "audio-engine_360-1.xor",
+          "payload_sha256": "159e70f603e744ab99fc76d75a4ef3e3ae3c8003f9c467fd6d10b59e9b67fc1f"
+        },
+        {
+          "source_sha256": "d24897d9c5e98838dc23f51d1f68b22812875a9298853b0e19ee8f888d0e0790",
+          "source_bytes": 4501504,
+          "payload": "audio-engine_360-2.xor",
+          "payload_sha256": "7073154c3f5e871dc41fe42d3ffe1555a598ac44b775eb5ff05a76bd0d32784e"
+        },
+        {
+          "source_sha256": "f01ed9ae3b869121ef98fd90554d3de17c77a6a8a34f00fe9b2ed260ab048bec",
+          "source_bytes": 4501504,
+          "payload": "audio-engine_360-3.xor",
+          "payload_sha256": "9815156d4bb54d7e26d100a590ae779460736a578a093b3dc7880e7509f5800d"
+        },
+        {
+          "source_sha256": "600dc5a5f41703e90f49902edbd6da164d37ffe4effa1169874a1b0022f2adca",
+          "source_bytes": 4501504,
+          "payload": "audio-engine_360-4.xor",
+          "payload_sha256": "741768692e5dbc87f44030ec71d897bb782d024d27488e1bfe784595e1a34cfc"
+        },
+        {
+          "source_sha256": "770ca431894bd1a738e503f4ff24421d6bfeac687e1d85bc73d09cb4fdc474e0",
+          "source_bytes": 4501504,
+          "payload": "audio-engine_360-5.xor",
+          "payload_sha256": "3f75a14298f71c9a38f503cb86ab10d356bd36cac455e9314940072c5ec7cb6b"
+        }
+      ],
+      "allow_absent": false,
+      "loader_module": true,
+      "official_sha256": "d24897d9c5e98838dc23f51d1f68b22812875a9298853b0e19ee8f888d0e0790"
+    },
+    {
+      "path": "bin/FileSystem_Stdio_360.dll",
+      "target_sha256": "c56fdfe65bb0cd75fd1737021bceb8cbb2212c66140966df031391ab6d2dc0d3",
+      "target_bytes": 466944,
+      "variants": [
+        {
+          "source_sha256": "7c06b7a671dea4845e9ca150a3d0cd121ee141f317dc9ebf26f5f7bad7159125",
+          "source_bytes": 466944,
+          "payload": "02-0.xor",
+          "payload_sha256": "d06a2375c25a4dd0e65fb7443e006b13eb4aeea35d4f24bbdb6c94e1f0095f29"
+        },
+        {
+          "source_sha256": "c56fdfe65bb0cd75fd1737021bceb8cbb2212c66140966df031391ab6d2dc0d3",
+          "source_bytes": 466944,
+          "payload": "02-1.xor",
+          "payload_sha256": "1267404a58b9c266811512299df5880933fa3feaa706b9c8a0b546f0f72c6d68"
+        }
+      ],
+      "allow_absent": false,
+      "loader_module": false,
+      "official_sha256": "c56fdfe65bb0cd75fd1737021bceb8cbb2212c66140966df031391ab6d2dc0d3"
+    },
+    {
+      "path": "bin/GameUI_360.dll",
+      "target_sha256": "fc69ca207ddd11a8015badb4bf4615753486f694344dba8f99daae453877cb56",
+      "target_bytes": 1515520,
+      "variants": [
+        {
+          "source_sha256": "e5e41c9eac6cb7b7751d27e90a904c63597cca03526721214befdb0be5f86326",
+          "source_bytes": 1417216,
+          "payload": "gameui-rootfix-0.xor",
+          "payload_sha256": "6ae9f17a26ad43e96271329d115b4133a27c59d5268fa5e8f26d20bb29bd1745"
+        },
+        {
+          "source_sha256": "6fcead61d98a2feae62b6fec253b22067a6fcd1574d92762336ad2e416e1ac1e",
+          "source_bytes": 1482752,
+          "payload": "gameui-rootfix-1.xor",
+          "payload_sha256": "ce1e381190ae66163da57a7321dee11df52d6e6978861525a87e843b5f3f61a4"
+        },
+        {
+          "source_sha256": "301339bd8405e0e951776c68818b593f46b317dfac674fbdb2edb260076bd135",
+          "source_bytes": 1515520,
+          "payload": "gameui-rootfix-2.xor",
+          "payload_sha256": "910f8c508d558fd5f1f0372eb9e4eeaeb9044fa25d2bef22bee1971c578de446"
+        }
+      ],
+      "allow_absent": false,
+      "loader_module": true,
+      "official_sha256": "6fcead61d98a2feae62b6fec253b22067a6fcd1574d92762336ad2e416e1ac1e"
+    },
+    {
+      "path": "bin/inputsystem_360.dll",
+      "target_sha256": "a0f359d6f0fac3b3509727c86dbaa2ab3440ca9ec0373f04f278d08b76570b91",
+      "target_bytes": 167936,
+      "variants": [
+        {
+          "source_sha256": "95bedbc5e2e55fa002f3b06366e9738f9649b26621012b1378b2cdcba422f3a9",
+          "source_bytes": 167936,
+          "payload": "04-0.xor",
+          "payload_sha256": "1afbb972d4119ecd3dbbe6896fffdab1814cb05d3e20b4fa3e80d62f2b94cdd5"
+        },
+        {
+          "source_sha256": "a0f359d6f0fac3b3509727c86dbaa2ab3440ca9ec0373f04f278d08b76570b91",
+          "source_bytes": 167936,
+          "payload": "04-1.xor",
+          "payload_sha256": "b9085c16f401e344d8c19ee6b7fe593d02b3e32e9d736e0825e09c6024e376f0"
+        }
+      ],
+      "allow_absent": false,
+      "loader_module": false,
+      "official_sha256": "a0f359d6f0fac3b3509727c86dbaa2ab3440ca9ec0373f04f278d08b76570b91"
+    },
+    {
+      "path": "bin/launcher_360.dll",
+      "target_sha256": "fb27e1aced43b8d6b20be79e27eaa5e46a6d5ffc8e02f541b0309b74d21eb433",
+      "target_bytes": 233472,
+      "variants": [
+        {
+          "source_sha256": "00e74d1a51d77ba85275c842a1d6454cf4e43445f86a9b9a9c07244f1c1a7797",
+          "source_bytes": 233472,
+          "payload": "05-0.xor",
+          "payload_sha256": "1571378b160cc9751344918523314e07bc126ceb0e1dd529dc0b96951f4d81a5"
+        },
+        {
+          "source_sha256": "fb27e1aced43b8d6b20be79e27eaa5e46a6d5ffc8e02f541b0309b74d21eb433",
+          "source_bytes": 233472,
+          "payload": "05-1.xor",
+          "payload_sha256": "0e9adf440e6e12ce71f7d000958bf0d12b1feb9fc31e5cd6a0f2fed5de932738"
+        }
+      ],
+      "allow_absent": false,
+      "loader_module": false,
+      "official_sha256": "fb27e1aced43b8d6b20be79e27eaa5e46a6d5ffc8e02f541b0309b74d21eb433"
+    },
+    {
+      "path": "bin/MaterialSystem_360.dll",
+      "target_sha256": "96034856d3bd38e1a2461ce14531cbe5a569432577c6d4c263ab7dbdb020809f",
+      "target_bytes": 827392,
+      "variants": [
+        {
+          "source_sha256": "966a8e2d9ab8910d38a654ffd78a550cca692cf98640bea6329c04412745022c",
+          "source_bytes": 827392,
+          "payload": "06-0.xor",
+          "payload_sha256": "3fe60a9defc50addbcba47675f785d27071bfd7312fba774ae50e2d1628045d2"
+        },
+        {
+          "source_sha256": "96034856d3bd38e1a2461ce14531cbe5a569432577c6d4c263ab7dbdb020809f",
+          "source_bytes": 827392,
+          "payload": "06-1.xor",
+          "payload_sha256": "835d2bdf2a45e29b1ca296b107358532f184eb658bf354100cabd4dcaec04d76"
+        }
+      ],
+      "allow_absent": false,
+      "loader_module": false,
+      "official_sha256": "96034856d3bd38e1a2461ce14531cbe5a569432577c6d4c263ab7dbdb020809f"
+    },
+    {
+      "path": "bin/SceneFileCache_360.dll",
+      "target_sha256": "c58ef319c2f6b24d11946efe8d362c523fc4050554b6b14b20eaf2ca92fc3cb5",
+      "target_bytes": 135168,
+      "variants": [
+        {
+          "source_sha256": "a6cfc87a9692c4c44fc0a19ab57e4744061430847cb7b62baa7822277fd6be55",
+          "source_bytes": 135168,
+          "payload": "07-0.xor",
+          "payload_sha256": "fe3143ab26cf2122ce62f6e4cb99397d2ea233b163ba2681ef9cc16472078359"
+        },
+        {
+          "source_sha256": "c58ef319c2f6b24d11946efe8d362c523fc4050554b6b14b20eaf2ca92fc3cb5",
+          "source_bytes": 135168,
+          "payload": "07-1.xor",
+          "payload_sha256": "b287abad46740ef8bfb33b6c5c71e4040ac7f4a8253777b8a2a1b4314d5fff33"
+        }
+      ],
+      "allow_absent": false,
+      "loader_module": false,
+      "official_sha256": "c58ef319c2f6b24d11946efe8d362c523fc4050554b6b14b20eaf2ca92fc3cb5"
+    },
+    {
+      "path": "bin/shaderapidx9_360.dll",
+      "target_sha256": "0a4e0afb7973cd1bf1250788bce28cac3759035e2378d1528f638a5aaf606d1e",
+      "target_bytes": 2039808,
+      "variants": [
+        {
+          "source_sha256": "481494d000aefd9c2d55b09dd7f6e0de9af38c8ba83b6bc4244c83d2b535435d",
+          "source_bytes": 2039808,
+          "payload": "08-0.xor",
+          "payload_sha256": "3e712522680e6311a95a86ba1d5108d20c1d39659218300a818704a3e6ae1a68"
+        },
+        {
+          "source_sha256": "0a4e0afb7973cd1bf1250788bce28cac3759035e2378d1528f638a5aaf606d1e",
+          "source_bytes": 2039808,
+          "payload": "08-1.xor",
+          "payload_sha256": "0e373908e8ffa71768225a2cb8c78ab64fe50484339c77a34ad301192a8deea4"
+        }
+      ],
+      "allow_absent": false,
+      "loader_module": false,
+      "official_sha256": "0a4e0afb7973cd1bf1250788bce28cac3759035e2378d1528f638a5aaf606d1e"
+    },
+    {
+      "path": "bin/SoundEmitterSystem_360.dll",
+      "target_sha256": "3e1b5ac49cf23a085b03d17b217399ec28eff2de1d7f8ef97d0dc098af7129f6",
+      "target_bytes": 200704,
+      "variants": [
+        {
+          "source_sha256": "cfae717aceed91155a430643552edab5bd5c65ca9f6ffe503759e34003069821",
+          "source_bytes": 200704,
+          "payload": "audio-SoundEmitterSystem_360-0.xor",
+          "payload_sha256": "61816e884e2aaa00e8568aa62930b6962627eddbb1604f545755a8edbd6e03d5"
+        },
+        {
+          "source_sha256": "e0dc10b2f6ebef745be21d198f3a92cc131922b0afbc279f14fe203cffb87746",
+          "source_bytes": 200704,
+          "payload": "audio-SoundEmitterSystem_360-1.xor",
+          "payload_sha256": "5e6346a5540adaa9788d539b60e3dfa7c4b0e10d775c0daab2dc177cdbdf91bf"
+        },
+        {
+          "source_sha256": "3e1b5ac49cf23a085b03d17b217399ec28eff2de1d7f8ef97d0dc098af7129f6",
+          "source_bytes": 200704,
+          "payload": "audio-SoundEmitterSystem_360-2.xor",
+          "payload_sha256": "b3a30b588af081e920bcdd7f17d12b13aa13abf4c1add62dab0db5853671e964"
+        }
+      ],
+      "allow_absent": false,
+      "loader_module": true,
+      "official_sha256": "cfae717aceed91155a430643552edab5bd5c65ca9f6ffe503759e34003069821"
+    },
+    {
+      "path": "bin/stdshader_dx9_360.dll",
+      "target_sha256": "35881fef02d1a5d23d0c810fc108532ab6450838f83dbf91dfc1089f092afb7f",
+      "target_bytes": 593920,
+      "variants": [
+        {
+          "source_sha256": "6b4b60d4af402243bf7262c4fac14176cb34669490efa28fefb76e29e95c71c4",
+          "source_bytes": 593920,
+          "payload": "10-0.xor",
+          "payload_sha256": "6b51b3cc85899d71714002aaf432604d20d3f496d5cea4ab28e979a41d87f843"
+        },
+        {
+          "source_sha256": "35881fef02d1a5d23d0c810fc108532ab6450838f83dbf91dfc1089f092afb7f",
+          "source_bytes": 593920,
+          "payload": "10-1.xor",
+          "payload_sha256": "61f5047db5746882f25613e984ecc359c720b1e91d2165bffaf1a178276175cc"
+        }
+      ],
+      "allow_absent": false,
+      "loader_module": false,
+      "official_sha256": "35881fef02d1a5d23d0c810fc108532ab6450838f83dbf91dfc1089f092afb7f"
+    },
+    {
+      "path": "bin/StudioRender_360.dll",
+      "target_sha256": "5a638640b114607025ddf190481cbcc201a99570273c33f6c9f21d5875bd75f5",
+      "target_bytes": 462848,
+      "variants": [
+        {
+          "source_sha256": "07e4f6edc88e222e9aded81f29736ccdcb15c2fbb56a9e81c99eb3bbc0ed4180",
+          "source_bytes": 466944,
+          "payload": "11-0.xor",
+          "payload_sha256": "11360037ce3a42306b83689b4de87c8d2259c6b47fb98da590109d3009c40ab8"
+        },
+        {
+          "source_sha256": "5a638640b114607025ddf190481cbcc201a99570273c33f6c9f21d5875bd75f5",
+          "source_bytes": 462848,
+          "payload": "11-1.xor",
+          "payload_sha256": "4f19faa25c15a80fe711334e4da4b47d16d62efcc522cf9a03f1fb1e15a37a54"
+        }
+      ],
+      "allow_absent": false,
+      "loader_module": false,
+      "official_sha256": "5a638640b114607025ddf190481cbcc201a99570273c33f6c9f21d5875bd75f5"
+    },
+    {
+      "path": "bin/tier0_360.dll",
+      "target_sha256": "23d01df1a45b70bc64c4e474e6f073e0b4e331cda18e68583094d6b4a14aa786",
+      "target_bytes": 233472,
+      "variants": [
+        {
+          "source_sha256": "a9c046fa9b27ce7227c0c5bedb4c699a54261e782d24447487fd44cc3be77b38",
+          "source_bytes": 266240,
+          "payload": "12-0.xor",
+          "payload_sha256": "95b13c160075b3d6cf9d01c7e12e5e8d23d8c70c2f47b7e8c05ff49cac5b8d71"
+        },
+        {
+          "source_sha256": "23d01df1a45b70bc64c4e474e6f073e0b4e331cda18e68583094d6b4a14aa786",
+          "source_bytes": 233472,
+          "payload": "12-1.xor",
+          "payload_sha256": "0e9adf440e6e12ce71f7d000958bf0d12b1feb9fc31e5cd6a0f2fed5de932738"
+        }
+      ],
+      "allow_absent": false,
+      "loader_module": false,
+      "official_sha256": "23d01df1a45b70bc64c4e474e6f073e0b4e331cda18e68583094d6b4a14aa786"
+    },
+    {
+      "path": "bin/vgui2_360.dll",
+      "target_sha256": "057075b4ce883a1b9cbf32ad77c32a843ae06123598947b1222676f248e526a9",
+      "target_bytes": 331776,
+      "variants": [
+        {
+          "source_sha256": "faeeae95a66126061d8c419605ac48a1739c88ec2bbfe05cedc2e941344e0ca4",
+          "source_bytes": 331776,
+          "payload": "13-0.xor",
+          "payload_sha256": "4a66c179d849ac275e1bcae56a466219340c35c3c0af8af8e026ffd1aaaa8765"
+        },
+        {
+          "source_sha256": "057075b4ce883a1b9cbf32ad77c32a843ae06123598947b1222676f248e526a9",
+          "source_bytes": 331776,
+          "payload": "13-1.xor",
+          "payload_sha256": "ebbcd52347b82168bbc8b4d77f8d814fb07f4377d53f9cdf47479df152ff5f14"
+        }
+      ],
+      "allow_absent": false,
+      "loader_module": false,
+      "official_sha256": "057075b4ce883a1b9cbf32ad77c32a843ae06123598947b1222676f248e526a9"
+    },
+    {
+      "path": "bin/vguimatsurface_360.dll",
+      "target_sha256": "7d5b103574e54b0672bd28046f5b4cbb5f1c0510ed7bfbb31e4850abcb49b2e3",
+      "target_bytes": 856064,
+      "variants": [
+        {
+          "source_sha256": "2b3d3acc093a9bdc61b2971b54368b14ac774fed22c3ee6edb77cd14e1f50d8c",
+          "source_bytes": 856064,
+          "payload": "14-0.xor",
+          "payload_sha256": "bfdbb77697412996cbe38f563a520bee6b6b19a6d7eb0e91956398e6dca5ff79"
+        },
+        {
+          "source_sha256": "7d5b103574e54b0672bd28046f5b4cbb5f1c0510ed7bfbb31e4850abcb49b2e3",
+          "source_bytes": 856064,
+          "payload": "14-1.xor",
+          "payload_sha256": "71a41633c7edef0801acfc642753c85d04b9dbee7349b72dd53089c795ec03df"
+        }
+      ],
+      "allow_absent": false,
+      "loader_module": false,
+      "official_sha256": "7d5b103574e54b0672bd28046f5b4cbb5f1c0510ed7bfbb31e4850abcb49b2e3"
+    },
+    {
+      "path": "bin/vphysics_360.dll",
+      "target_sha256": "f2558120836d41119ec4a68f79f1070e1433459ab84d365f602f33b488a800e5",
+      "target_bytes": 1052672,
+      "variants": [
+        {
+          "source_sha256": "5e0d6676547fc41f048bbda843a9641feb03c3feacb154434ad5545d2e246d79",
+          "source_bytes": 1052672,
+          "payload": "15-0.xor",
+          "payload_sha256": "3cf0577bc77ffc499077b18ac6eb33240a56a124172429fa3c7f2784770351ee"
+        },
+        {
+          "source_sha256": "f2558120836d41119ec4a68f79f1070e1433459ab84d365f602f33b488a800e5",
+          "source_bytes": 1052672,
+          "payload": "15-1.xor",
+          "payload_sha256": "fdcedff518ecaf8c8288deab2038b2881423fc631239ce0a91cdb4654cca6407"
+        }
+      ],
+      "allow_absent": false,
+      "loader_module": false,
+      "official_sha256": "f2558120836d41119ec4a68f79f1070e1433459ab84d365f602f33b488a800e5"
+    },
+    {
+      "path": "bin/vscript_360.dll",
+      "target_sha256": "3c8f829d75f2d358ba88081581d55e4a78a325a945d4d9610841fd324e704cc1",
+      "target_bytes": 397312,
+      "variants": [
+        {
+          "source_sha256": "929ed9a4875df4958f379b5233b9bd8ddb157f782747cc33f680a71d16c6f7b1",
+          "source_bytes": 397312,
+          "payload": "16-0.xor",
+          "payload_sha256": "39d4ab071cbf517f40765c8b7ce1114f04de01acd6b075f14db7c7e1f90594eb"
+        },
+        {
+          "source_sha256": "3c8f829d75f2d358ba88081581d55e4a78a325a945d4d9610841fd324e704cc1",
+          "source_bytes": 397312,
+          "payload": "16-1.xor",
+          "payload_sha256": "07efcf1a3b5ce673b93b83a204fef8c179f24491ca00a8f117ba80f186643115"
+        }
+      ],
+      "allow_absent": false,
+      "loader_module": false,
+      "official_sha256": "3c8f829d75f2d358ba88081581d55e4a78a325a945d4d9610841fd324e704cc1"
+    },
+    {
+      "path": "bin/vstdlib_360.dll",
+      "target_sha256": "f7435d96e25bae1224847e4e8ee0f4c660b16d514f0fac6d1dfb327a05ebe2c1",
+      "target_bytes": 200704,
+      "variants": [
+        {
+          "source_sha256": "e1a42662dbfb35ebb2d3489eff842e843978c451a69459ed8e80aa8cf719d6af",
+          "source_bytes": 200704,
+          "payload": "17-0.xor",
+          "payload_sha256": "41e95474a6c70f197d39044929a2ed8e1f50c68c2f0ff56f2516a4a69fc80e82"
+        },
+        {
+          "source_sha256": "f7435d96e25bae1224847e4e8ee0f4c660b16d514f0fac6d1dfb327a05ebe2c1",
+          "source_bytes": 200704,
+          "payload": "17-1.xor",
+          "payload_sha256": "b3a30b588af081e920bcdd7f17d12b13aa13abf4c1add62dab0db5853671e964"
+        }
+      ],
+      "allow_absent": false,
+      "loader_module": false,
+      "official_sha256": "f7435d96e25bae1224847e4e8ee0f4c660b16d514f0fac6d1dfb327a05ebe2c1"
+    },
+    {
+      "path": "default.xex",
+      "target_sha256": "9230d3af7005bf2cda9425de778a15265756e6445271786fc312d1c62586012f",
+      "target_bytes": 1118208,
+      "variants": [
+        {
+          "source_sha256": "b3ce6f0840cf5f19279ee69f20f3493eecdfb3e63dfa3dfc597196607c3a7ee4",
+          "source_bytes": 757760,
+          "payload": "18-0.xor",
+          "payload_sha256": "c6379df6a450073996e8d2c51156c878040f9ba16ec8843eec700a46044e3cad"
+        },
+        {
+          "source_sha256": "9230d3af7005bf2cda9425de778a15265756e6445271786fc312d1c62586012f",
+          "source_bytes": 1118208,
+          "payload": "18-1.xor",
+          "payload_sha256": "c9b430cd4475d444ac1c88dbb90e9b2e41fb5d0e3ece189e6882e8e05bd8609f"
+        }
+      ],
+      "allow_absent": false,
+      "loader_module": false,
+      "official_sha256": "9230d3af7005bf2cda9425de778a15265756e6445271786fc312d1c62586012f"
+    },
+    {
+      "path": "left4dead2/bin/client_360.dll",
+      "target_sha256": "79a43d112d0c56b2c5477c6f616cc69ffc8637942aef297e5e5f2e99e1dc4b16",
+      "target_bytes": 6823936,
+      "variants": [
+        {
+          "source_sha256": "11237c221b4089317577c470cb092675f5e9e3b87d4115874917adf3699a73af",
+          "source_bytes": 6823936,
+          "payload": "19-0.xor",
+          "payload_sha256": "99278b7ad5ebbdba44d8fbfde3901e2fbcbad110f8215c65dcb57f01ea74113d"
+        },
+        {
+          "source_sha256": "79a43d112d0c56b2c5477c6f616cc69ffc8637942aef297e5e5f2e99e1dc4b16",
+          "source_bytes": 6823936,
+          "payload": "19-1.xor",
+          "payload_sha256": "cb7654b55c5f67562bf232738f0edd422cdca12cf476f3dfef489c43e6eb85e3"
+        }
+      ],
+      "allow_absent": false,
+      "loader_module": false,
+      "official_sha256": "79a43d112d0c56b2c5477c6f616cc69ffc8637942aef297e5e5f2e99e1dc4b16"
+    },
+    {
+      "path": "left4dead2/bin/matchmaking_360.dll",
+      "target_sha256": "b4b84601a999bb99cfed41a362ca5dc8e0e922112d4432cd4ba22515fa6d3751",
+      "target_bytes": 532480,
+      "variants": [
+        {
+          "source_sha256": "700f43c988910b883758a81f1cb73031d9e3a364ab06bb6714b0e8f26c111944",
+          "source_bytes": 430080,
+          "payload": "20-0.xor",
+          "payload_sha256": "fd05ae53e135c32d185f25083f40223099f32981b2732f70b76be9168d2451c2"
+        },
+        {
+          "source_sha256": "b4b84601a999bb99cfed41a362ca5dc8e0e922112d4432cd4ba22515fa6d3751",
+          "source_bytes": 532480,
+          "payload": "20-1.xor",
+          "payload_sha256": "e10c2822555cb5c5cc2e149ba44036354a0dcca7368492866a3d0ed379f05246"
+        }
+      ],
+      "allow_absent": false,
+      "loader_module": false,
+      "official_sha256": "b4b84601a999bb99cfed41a362ca5dc8e0e922112d4432cd4ba22515fa6d3751"
+    },
+    {
+      "path": "left4dead2/bin/server_360.dll",
+      "target_sha256": "568c2803b8d27534aed81c2829fc1a9337bbb440c8492c200bd32a2835286daa",
+      "target_bytes": 7970816,
+      "variants": [
+        {
+          "source_sha256": "c8137e9d5632423703d716654cf25aaced5e47372a6b341ca37e896be3f0a432",
+          "source_bytes": 7774208,
+          "payload": "21-0.xor",
+          "payload_sha256": "6fa25b0c3548afe3e6a8f41fbf2d103e099122cf2fb76dbbf358c23571391fa8"
+        },
+        {
+          "source_sha256": "568c2803b8d27534aed81c2829fc1a9337bbb440c8492c200bd32a2835286daa",
+          "source_bytes": 7970816,
+          "payload": "21-1.xor",
+          "payload_sha256": "ebecf8aa091f3d6f7bbda4d354b7cd64c4bb8827709254c9bc7dc38d77794909"
+        }
+      ],
+      "allow_absent": false,
+      "loader_module": false,
+      "official_sha256": "568c2803b8d27534aed81c2829fc1a9337bbb440c8492c200bd32a2835286daa"
+    },
+    {
+      "path": "avatarawards",
+      "target_sha256": "745fc98576641ec66ceb73d95023dcb0625a1f338fe86e8dccfe518ba0d03b97",
+      "target_bytes": 360448,
+      "variants": [
+        {
+          "source_sha256": "c526912a267c6735aa56d25a2ecb8407592b1d179f4aa5a87d28ac72d71cc611",
+          "source_bytes": 1155072,
+          "payload": "22-0.xor",
+          "payload_sha256": "f9d72964fcc8e839d34be534654c072095e90a69d8270044058729decd6bdc31"
+        }
+      ],
+      "allow_absent": false,
+      "loader_module": false
+    },
+    {
+      "path": "left4dead2/zip2.360.zip",
+      "target_sha256": "c5d85fec191d9b3c3fc12acbda1b97d825894240c7ce4b3f4b27c93272544b1e",
+      "target_bytes": 3127304,
+      "variants": [],
+      "allow_absent": true,
+      "new_payload": "23-new.bin",
+      "loader_module": false
+    },
+    {
+      "path": "left4dead2/zip3.360.zip",
+      "target_sha256": "d1649cf3bcdbadb55aa8886cb43a19ae2e5ddbfde073bab9c6b1554a3c8879b5",
+      "target_bytes": 371278,
+      "variants": [],
+      "allow_absent": true,
+      "new_payload": "24-new.bin",
+      "loader_module": false
+    },
+    {
+      "path": "left4dead2/zip4.360.zip",
+      "target_sha256": "d54ff323f84c27a3d16ef7c19b0b35f027f7483c3ae26d3ed80600b66651e97a",
+      "target_bytes": 30221,
+      "variants": [
+        {
+          "source_sha256": "910ec1c5e715c90cff2d25b1e4650ae921f5f2cdc00d29acb3f21984e5fa82f5",
+          "source_bytes": 30228,
+          "payload": "25-heading-v1.xor",
+          "payload_sha256": "12b0f6a53d333da18648d84cba9630858838adaa95673ee8f366c9d4e046405f"
+        }
+      ],
+      "allow_absent": true,
+      "new_payload": "25-new.bin",
+      "loader_module": false
+    },
+    {
+      "path": "left4dead2/bin/Leave2loader_version.txt",
+      "target_sha256": "107df0d385c9366069f5b84ca50aa1230bfafda40c9741d656dd45c0a9377076",
+      "target_bytes": 26,
+      "variants": [],
+      "allow_absent": true,
+      "new_payload": "loader-version-1.bin",
+      "loader_marker": true
+    }
+  ],
+  "profile_support": true,
+  "loader_version": 1,
+  "addon_root": "game:\\left4dead2\\",
+  "audio_compatibility": {
+    "revision": 1,
+    "survivor_token_expansion": true,
+    "music_late_source_paths_only": true,
+    "dialogue_registration_requires_startup_support": true,
+    "validated_on": "Xenia, user listening tests",
+    "hardware_validated": false,
+    "assert_diagnostic_included": false,
+    "source_logging_forced": false
+  }
+}

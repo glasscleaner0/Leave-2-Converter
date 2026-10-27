@@ -1,0 +1,12 @@
+[package]
+name = "x360-convert"
+version = "0.2.0"
+edition = "2024"
+description = "Independent Xbox disc and GOD container converter"
+license = "0BSD"
+
+[profile.release]
+opt-level = 3
+lto = true
+strip = true
+panic = "abort"
